@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property gogGalaxy() As System.Drawing.Bitmap
+        Friend ReadOnly Property splashLogo() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("gogGalaxy", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("splashLogo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
