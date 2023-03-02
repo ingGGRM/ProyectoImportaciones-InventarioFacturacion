@@ -22,17 +22,17 @@ Partial Class MainForm
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.SuspendLayout()
-        '
-        'MainForm
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Name = "MainForm"
-        Me.Text = "MainForm"
-        Me.ResumeLayout(False)
-
+        SuspendLayout()
+        ' 
+        ' MainForm
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.ActiveCaption
+        ClientSize = New Size(700, 338)
+        Margin = New Padding(3, 2, 3, 2)
+        Name = "MainForm"
+        Text = "MainForm"
+        ResumeLayout(False)
     End Sub
 End Class
