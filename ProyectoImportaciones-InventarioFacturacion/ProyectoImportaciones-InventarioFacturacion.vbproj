@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>ProyectoImportaciones_InventarioFacturacion</RootNamespace>
-    <StartupObject>ProyectoImportaciones_InventarioFacturacion.My.MyApplication</StartupObject>
+    <StartupObject>ProyectoImportaciones_InventarioFacturacion.MainForm</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
